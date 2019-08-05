@@ -80,10 +80,10 @@ class TextClassifier(DataPreProcessor):
 
 	Example:
 	--------
-	>>> dataset = "C:\\Users\\rkathi1\\Projects\\classification\\media\\training_data\\2018\\07\\09\\SGSclassifier_data.csv"
+	>>> dataset = "classifier_data_set.csv"
 	>>> classifier = MultinomialNB()
 	>>> features = ['text']
-	>>> label = 'subset_Issue'
+	>>> label = 'label_column'
 	>>> tch = TextClassifier(dataset_file_path=dataset,
 	    classifier=classifier,
 	    features=features,
